@@ -97,5 +97,7 @@ if __name__ == '__main__':
     cv2.imshow('I',src);
     cv2.imshow('J',J);
     cv2.imwrite("./image/J.png",J*255);
+    cv2.imwrite("./image/t.png",t*255);
+    cv2.imwrite("./image/dark.png",dark*255);
     cv2.waitKey();
     
